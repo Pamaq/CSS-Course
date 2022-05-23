@@ -1,4 +1,36 @@
+html {
+  font-size: 22 px;
+}
+
+main {
+  font-family: monospace;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2 {
+  color: rgb(129, 129, 172);
+}
+
 p {
-  font-size: 64px;
-  color: purple;
+  color: rgb(217, 164, 217);
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: pink;
+}
+
+.gray {
+  color: gray;
+}
+
+#second {
+  font-style: italic;
 }
