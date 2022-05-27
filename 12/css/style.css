@@ -33,20 +33,17 @@ body {
   color: #fff;
   padding: 1rem;
 }
-
 .absolute {
-  background-color: #00f;
+  background-color: blue;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   z-index: 1;
 }
-
 .relative {
-  background-color: #f00;
+  background-color: red;
   position: relative;
   top: 300px;
-  left: 100px;
 }
 
 .fixed {
@@ -54,57 +51,56 @@ body {
   position: fixed;
   top: 100px;
 }
-
 .sticky {
-  background-color: #000;
+  background-color: black;
   position: sticky;
   top: 0;
 }
-
-/*  Remember, how to make things disappear! */
-
-/*//////////////////////////*/
-
-html { scroll-behavior: smooth; }
+/*making things disappear ^*/
 
 section {
   height: 100vh;
 }
-
-.blue { background-color: #00f;}
-.red { background-color: #f00;}
-.green { background-color: green;}
-
-header, footer {
-  color: #fff;
-  text-align: center;
-  height: 100px;
+.blue {
+  background-color: blue;
 }
-
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+header,
+footer {
+  color: white;
+  height: 100px;
+  font-size: 5rem;
+  text-align: center;
+}
 header {
   position: sticky;
   top: 0;
-  font-size: 5rem;
 }
-
 footer {
-  background-color: #000;
+  background-color: black;
   position: sticky;
-  bottom: 0;
   font-size: 3rem;
+  bottom: 0;
+  width: 100%;
 }
-
 a:visited {
-  color: #fff;
+  color: white;
 }
-
 .social {
-  background-color: royalblue;
-  color: #fff;
+  background-color: blue;
+  color: white;
   font-size: inherit;
   padding: 1rem;
   position: fixed;
   top: 30%;
   left: 0;
   z-index: 1;
+}
+html {
+  scroll-behavior: smooth;
 }
